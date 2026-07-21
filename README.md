@@ -234,15 +234,6 @@ A: 官网「联系我们」：https://syapi.chuangye.site/
 
 ---
 
-## 发布到 Gitee / GitHub 建议
-
-1. 仓库名可用 SEO 友好词，例如：`yunxi-media-api`、`short-video-parse-api`、`no-watermark-api-demo`  
-2. 仓库简介可写：`抖音/快手/小红书等短视频去水印解析 API 调用示例 · 云析开放平台`  
-3. Topics / 标签建议：`去水印` `抖音` `快手` `小红书` `api` `短视频` `watermark` `douyin`  
-4. README 置顶放官网与注册链接（本文件已放好）  
-5. **推送前确认**：无 `.env`、无真实 KEY、无业务私有代码  
-
----
 
 ## Star & 反馈
 
