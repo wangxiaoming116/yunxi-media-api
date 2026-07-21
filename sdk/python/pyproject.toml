@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yunxi-api"
+version = "1.0.0"
+description = "Lightweight client for Yunxi (云析) media parse API — short video / album / live photo"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Yunxi API Demo" }]
+keywords = [
+  "watermark",
+  "douyin",
+  "kuaishou",
+  "xiaohongshu",
+  "media-parse",
+  "api",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://syapi.chuangye.site/"
+Documentation = "https://syapi.chuangye.site/home/doc"
+Source = "https://gitee.com/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["yunxi_api*"]
